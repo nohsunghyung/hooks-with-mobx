@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
-import Notice from "./pages/Notice";
+import React from "react";
 
 function App() {
-  return <div className="App">테스트222222</div>;
+  return <div className="App"></div>;
 }
 
 export default App;
