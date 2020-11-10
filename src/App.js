@@ -1,12 +1,16 @@
-import React, { useState, useEffect } from "react";
-import Notice from "./pages/Notice";
+import React from "react";
+import Buttons from "./components/Buttons";
+import Counter from "./components/Counter";
+import Option from "./components/Option";
 
 function App() {
-<<<<<<< HEAD
-  return <div className="App">33333-2222</div>;
-=======
-  return <div className="App">테스트222222</div>;
->>>>>>> parent of e6698f2... 222
+  return (
+    <div className="App">
+      <Counter />
+      <Option />
+      <Buttons />
+    </div>
+  );
 }
 
 export default App;
